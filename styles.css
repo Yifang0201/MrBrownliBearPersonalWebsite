@@ -1,0 +1,345 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  color: #3e1e09;
+  /* cursor: url(images/paw.png), default; */
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+/* Banner Section  */
+.top {
+  padding: 20px 0 100px;
+  background-image: url(images/banner-top.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right bottom;
+}
+
+.music-box {
+  background-image: url(images/banner-middle-03.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left bottom;
+}
+
+#gallery {
+  background-image: url(images/banner-middle-tree-left.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left top;
+}
+
+/* #footer{
+  background-image: url(images/banner-bottom-left.png), url(images/banner-bottom-right.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left bottom, right bottom;
+} */
+/* Heading Section */
+.heading-section{
+  position: relative;
+  right: 10%;
+  padding-top: 40px;
+
+}
+
+.heading-cloud-img {
+  width: 15%;
+  position: absolute;
+  left: 15%;
+}
+
+
+.self-images {
+  margin-bottom: 30px;
+}
+
+.title {
+  padding: 100px 0 30px;
+}
+
+/* Section */
+.colored-section {
+  background-color: #5ca0d3;
+  color: #fff;
+  /* color: #3e1e09; */
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.container-fluid {
+  width: 75%;
+  padding: 5%;
+}
+
+/* navigation Bar*/
+.navbar {
+  padding: 0 3rem 1rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+  /* border: 1px solid #3e1e09; */
+}
+
+.nav-font {
+  color: #3e1e09;
+  /* border: 1px solid #3e1e09; */
+  /* border-radius: 5px 0 0 5px; */
+  /* background-color: #fff; */
+
+}
+
+
+
+.nav-font:hover {
+  /* background-color: #3e1e09; */
+  /* color: #fff; */
+
+
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  /* font-weight: lighter; */
+  font-size: 1.2rem;
+}
+
+/* Testimonials Section */
+/* .testimonials-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+*/
+.testimonial-image {
+  width: 25%;
+  margin: 20px auto 50px;
+}
+
+/* All Buttons */
+.btn {
+  color: #3e1e09;
+  background-color: #fff;
+  border: 1px solid #3e1e09;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #3e1e09;
+  border: 1px solid #3e1e09;
+  /* cursor: url(images/paw-01.png), default; */
+}
+
+/* Meal Section */
+.meal-container {
+  margin: 0 25%;
+}
+
+.refresh-btn {
+  margin: 20px 0 100px;
+}
+
+.refresh-button, .submit-button {
+  width: 20%;
+  margin: 20px 20px 20px;
+}
+
+.drink-button, .food-button {
+  width: 30%;
+  margin: 5px 10px;
+}
+
+.click-counter-button {
+  width: 42%;
+}
+
+.f1-img, .f2-img, .f3-img, .f4-img, .d1-img, .d2-img, .d3-img, .d4-img {
+  border: 1px solid #000;
+  width: 90%;
+  border-radius: 30%;
+  opacity: 0.3;
+  margin: 10px 0;
+  /* filter: alpha(opacity=50); */
+}
+
+/* hover */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+  width: 70%;
+  opacity: 0;
+  transition: .5s ease;
+  /* background-color: blue; */
+  border-radius: 20%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #3e1e09;
+  /* font-size: 50px; */
+  position: absolute;
+  top: 50%;
+  /*what this mean?*/
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Play Music Section */
+.music-img {
+  width: 50%;
+  height: 50%;
+}
+
+.music-btn {
+  margin: 30px auto;
+  margin-bottom: 100px;
+}
+
+/* Good Night Section */
+.light-off {
+  position: fixed;
+  bottom: 250px;
+  right: 0px;
+  width: 210px;
+}
+
+.light-on {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 210px;
+}
+
+#myImg {
+  display: none;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 50px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color
+  /* background-image: url(images/stars.PNG); */
+  /* background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  height: 95%;
+  width: 50%;
+  max-width: 700px;
+}
+
+/* Add Animation */
+.modal-content {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0.1)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* The Close Button */
+/* .light-on {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+} */
+/* .light-on:hover,
+.light-on:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+} */
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/* Footer Section */
+.footer-img {
+  /* position: absolute; */
+  left: 0;
+  bottom: 0;
+}
+
+.left-bear-img {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  /* z-index:1; */
+}
+
+.right-bear-img {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-icon {
+  padding: 50px 20px 20px;
+}
+
+.copy-right {
+  font-size: 0.75rem;
+}
